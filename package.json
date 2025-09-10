@@ -1,0 +1,17 @@
+{
+  "name": "eslint-plugin-no-window",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "eslint": "^9.35.0",
+    "mocha": "^11.7.2"
+  }
+}
