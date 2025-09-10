@@ -1,6 +1,7 @@
 {
   "name": "eslint-plugin-no-window",
   "version": "1.0.0",
+  "description": "ESLint plugin that disallows direct access to global window except for native properties",
   "main": "index.js",
   "type": "module",
   "peerDependencies": {
@@ -14,5 +15,20 @@
     "eslint": "^9.35.0",
     "mocha": "^11.7.2"
   },
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZafricanDev/eslint-plugin-no-window.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "lint",
+    "window",
+    "browser"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZafricanDev/eslint-plugin-no-window/issues"
+  },
+  "homepage": "https://github.com/ZafricanDev/eslint-plugin-no-window#readme"
 }
