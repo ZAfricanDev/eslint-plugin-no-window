@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "ESLint plugin that disallows direct access to global window except for native properties",
   "main": "index.js",
-  "type": "module",
   "peerDependencies": {
     "eslint": ">=7"
   },
