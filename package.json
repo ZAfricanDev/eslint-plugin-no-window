@@ -1,8 +1,13 @@
 {
   "name": "eslint-plugin-no-window",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint plugin that disallows direct access to global window except for native properties",
-  "main": "index.js",
+  "main": "index.cjs",
+  "type": "module",
+  "exports": {
+    "require": "./index.cjs",
+    "import": "./index.js"
+  },
   "peerDependencies": {
     "eslint": ">=7"
   },

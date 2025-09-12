@@ -1,4 +1,4 @@
-const noDirectWindowAccess = require("./lib/rules/no-direct-window-access.js");
+import noDirectWindowAccess from "./lib/rules/no-direct-window-access.js";
 
 export default {
   rules: {
